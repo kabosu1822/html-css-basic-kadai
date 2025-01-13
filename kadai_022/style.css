@@ -1,0 +1,75 @@
+header {
+  margin-bottom: 20px;
+  background-color: rgb(244,79,79);
+  text-align: center;
+}
+h1 {
+  margin: 0px;
+  color: rgb(255,255,255);
+}
+p {
+  margin: 0px;
+  font-size: 20px;
+}
+a:link {
+  font-size: 20px;
+}
+main {
+margin: 10px;
+}
+#parent {
+display:flex;
+text-align: center;
+justify-content:space-around;
+}
+.contents {
+border: solid 3px rgb(238,204,204);
+display: flexbox 
+padding: 10px 15px; 
+margin-top: 20px 0px;
+flex-basis: 25%;
+text-align: center;
+}
+h2 {
+font-size: 25px;
+display: block;
+width: 80%;
+margin: auto;
+border-bottom: 3px dotted  rgb(236,122,122) ;
+}
+h2::before {
+  content: "⚫︎";
+  color: rgb(239,111,139);
+}
+p:nth-child(3)::first-letter {
+  color: rgb(97,206,249);
+  font-weight: bold;
+}
+.contents img {
+margin: 10px 0px;
+width: 70%;
+}
+footer {
+  background-color: rgb(244,79,79);
+  text-align: center;
+}
+a {
+color: rgb(255,255,255);
+
+}
+a:valid {
+color:rgb(193,234,251);
+}
+a:hover {
+  color:rgb(245,178,168);
+}
+@media screen and (max-width:768px) { 
+h2 {
+font-size: 30px;
+}
+p {
+  font-size: 25px;
+}
+#parent {
+  flex-direction: column;
+}
